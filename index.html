@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel ="stylesheet" href="style.css">
+        <script type="text/javascript" src = "script.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap" rel="stylesheet">
+        <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.19/build/spline-viewer.js"></script>
+    </head>
+
+    <div class = "background"><script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.19/build/spline-viewer.js"></script>
+        <spline-viewer url="https://prod.spline.design/eP2LhMqubyzpUK7r/scene.splinecode"></spline-viewer>
+    </div>
+
+    <body>
+        
+        <header class = "banner">
+            <button  onclick = "message()">MIXED MESSAGES</button> 
+        </header>
+        
+        
+        <main>
+            <div class="sec">
+                <div class = "message">
+                    <h2 class = "items" id = 'quote'> </h2>
+                    <h2 class = "items" id = 'word'> </h2>
+                    <h2 class = "items" id= 'funFact'> </h2>
+                </div>
+                <div class = "history-banner"><h1>History</h1></div>
+                <div class = history>
+                    <div class ="history-items" id="quoteHistory"></div>
+                    <div class ="history-items" id="wordHistory"></div>
+                    <div class ="history-items" id="funFactHistory"></div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
